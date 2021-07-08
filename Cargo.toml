@@ -1,0 +1,12 @@
+[package]
+name = "stock_trading_cli"
+version = "0.1.0"
+authors = ["Alberto Cole <cole@aceperhead.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yahoo_finance_api = {"version"="1.1.5", features = ["blocking"]}
+chrono = "0.4.19"
+clap = "3.0.0-beta.2"
